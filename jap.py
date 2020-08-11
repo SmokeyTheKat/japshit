@@ -1,4 +1,5 @@
 import sys
+import pyperclip
 
 inp = ""
 sa = sys.argv
@@ -54,3 +55,5 @@ for c in inp:
 	outt += conv[c]
 
 print(outt)
+pyperclip.copy(outt)
+print("HAS BEEN COPYED TO CLIP BOARD YO")
